@@ -10,7 +10,7 @@
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "appflow:build": "npm install && next build",
+    "appflow:build": "next build && next export",
   },
   "dependencies": {
     "@capacitor/android": "^3.0.1",
